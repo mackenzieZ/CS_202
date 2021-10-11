@@ -1,0 +1,28 @@
+#Purpose CMake file for project 8 build
+cmake_minimum_required(VERSION 3.10)
+
+project(project8)
+
+include_directories(include)
+
+set(ARRAY_MOD src/arrayList/ArrayList.cpp)
+add_library(arrayList  ${ARRAY_MOD})
+
+set(DATA_MOD src/dataType/DataType.cpp)
+add_library(dataType  ${DATA_MOD})
+
+set(NODE_MOD src/nodeList/NodeList.cpp)
+add_library(nodeList  ${NODE_MOD})
+
+add_executable(project8 src/proj8.cpp)
+
+target_link_libraries(project8 arrayList dataType nodeList)
+
+install(TARGETS project8 arrayList dataType nodeList
+        RUNTIME DESTINATION ${PROJECT_SOURCE_DIR}/devel/bin
+        LIBRARY DESTINATION ${PROJECT_SOURCE_DIR}/devel/lib
+        ARCHIVE DESTINATION ${PROJECT_SOURCE_DIR}/devel/lib/static)
+
+install(DIRECTORY ${PROJECT_SOURCE_DIR}/include/
+        DESTINATION ${PROJECT_SOURCE_DIR}/devel/include/
+        FILES_MATCHING PATTERN "*.h" PATTERN ".hpp")

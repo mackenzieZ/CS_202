@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/project4.dir/src/proj4.cpp.o  -o project4 libAgencyModule.a libCarModule.a libSensorModule.a libMenuModule.a libStringModule.a 

@@ -1,0 +1,23 @@
+#Purpose CMake file for project 7 build
+cmake_minimum_required(VERSION 3.10)
+
+project(project7)
+
+include_directories(include)
+
+set(MY_STRING_MOD src/my_string/myString.cpp)
+add_library(my_string  ${MY_STRING_MOD})
+
+
+add_executable(project7 src/test.cpp)
+
+target_link_libraries(project7 my_string)
+
+install(TARGETS project7 my_string
+        RUNTIME DESTINATION ${PROJECT_SOURCE_DIR}/devel/bin
+        LIBRARY DESTINATION ${PROJECT_SOURCE_DIR}/devel/lib
+        ARCHIVE DESTINATION ${PROJECT_SOURCE_DIR}/devel/lib/static)
+
+install(DIRECTORY ${PROJECT_SOURCE_DIR}/include/
+        DESTINATION ${PROJECT_SOURCE_DIR}/devel/include/
+        FILES_MATCHING PATTERN "*.h" PATTERN ".hpp")

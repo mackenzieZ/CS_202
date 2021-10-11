@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/project6.dir/src/proj6.cpp.o  -o project6 libmy_vehicle.a libmy_car.a 

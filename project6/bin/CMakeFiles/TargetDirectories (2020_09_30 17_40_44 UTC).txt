@@ -1,0 +1,9 @@
+/mnt/c/Users/Kenzie/CS_202/project6/bin/CMakeFiles/install/strip.dir
+/mnt/c/Users/Kenzie/CS_202/project6/bin/CMakeFiles/install/local.dir
+/mnt/c/Users/Kenzie/CS_202/project6/bin/CMakeFiles/install.dir
+/mnt/c/Users/Kenzie/CS_202/project6/bin/CMakeFiles/project6.dir
+/mnt/c/Users/Kenzie/CS_202/project6/bin/CMakeFiles/my_car.dir
+/mnt/c/Users/Kenzie/CS_202/project6/bin/CMakeFiles/my_vehicle.dir
+/mnt/c/Users/Kenzie/CS_202/project6/bin/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Kenzie/CS_202/project6/bin/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Kenzie/CS_202/project6/bin/CMakeFiles/list_install_components.dir

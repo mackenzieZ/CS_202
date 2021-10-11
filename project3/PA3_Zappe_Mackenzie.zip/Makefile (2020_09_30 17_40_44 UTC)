@@ -1,0 +1,23 @@
+TARGET = proj3
+LIBS = -lm 
+HEADERS = agency.h menu.h my_string.h rentalCar.h
+SRCS = proj3.cpp menu.cpp my_string.cpp rentalCar.cpp
+OBJECTS := $(patsubst %.cpp,%.o,$(SRCS))
+CXX = g++
+CXX_FLAGS = -Wall -std=c++11 -w
+
+
+.PHONY: default all clean
+
+
+all:$(TARGET)
+
+%.o: %.cpp $(HEADERS)
+	$(CXX) $(CXX_FLAGS) -c $< -o $@
+
+$(TARGET):$(OBJECTS)
+	$(CXX) $(CXX_FLAGS) $(OBJECTS) $(LIBS) -o $@
+
+
+clean:
+	-rm -f *.o

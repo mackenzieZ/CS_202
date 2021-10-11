@@ -1,0 +1,10 @@
+#Purpose CMake file for project 11 build
+cmake_minimum_required(VERSION 3.10)
+
+project(project11)
+
+include_directories(include)
+
+add_executable(proj11_test proj11_test.cpp)
+add_executable(proj11_assess proj11_assess.cpp)
+

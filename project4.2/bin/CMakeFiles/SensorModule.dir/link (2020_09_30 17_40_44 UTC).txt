@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSensorModule.a  CMakeFiles/SensorModule.dir/src/SensorModule/sensor.cpp.o
+/usr/bin/ranlib libSensorModule.a

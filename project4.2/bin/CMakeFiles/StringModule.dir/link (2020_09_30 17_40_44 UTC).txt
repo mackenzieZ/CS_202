@@ -1,0 +1,2 @@
+/usr/bin/ar qc libStringModule.a  CMakeFiles/StringModule.dir/src/StringModule/my_string.cpp.o
+/usr/bin/ranlib libStringModule.a

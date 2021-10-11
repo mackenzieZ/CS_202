@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/AgencyModule/agency.h
+CarModule/car.h
+-
+
+../include/CarModule/car.h
+SensorModule/sensor.h
+-
+
+../include/MenuModule/menu.h
+AgencyModule/agency.h
+-
+
+../include/SensorModule/sensor.h
+
+../include/StringModule/my_string.h
+
+/mnt/c/Users/Kenzie/CS_202/project4.2/src/proj4.cpp
+iostream
+-
+fstream
+-
+StringModule/my_string.h
+-
+MenuModule/menu.h
+-
+

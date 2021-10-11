@@ -1,0 +1,9 @@
+/mnt/c/Users/Kenzie/CS_202/test5/PA5_Zappe_Mackenzie/bin/CMakeFiles/install/strip.dir
+/mnt/c/Users/Kenzie/CS_202/test5/PA5_Zappe_Mackenzie/bin/CMakeFiles/install/local.dir
+/mnt/c/Users/Kenzie/CS_202/test5/PA5_Zappe_Mackenzie/bin/CMakeFiles/install.dir
+/mnt/c/Users/Kenzie/CS_202/test5/PA5_Zappe_Mackenzie/bin/CMakeFiles/my_car.dir
+/mnt/c/Users/Kenzie/CS_202/test5/PA5_Zappe_Mackenzie/bin/CMakeFiles/my_vehicle.dir
+/mnt/c/Users/Kenzie/CS_202/test5/PA5_Zappe_Mackenzie/bin/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Kenzie/CS_202/test5/PA5_Zappe_Mackenzie/bin/CMakeFiles/project5.dir
+/mnt/c/Users/Kenzie/CS_202/test5/PA5_Zappe_Mackenzie/bin/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Kenzie/CS_202/test5/PA5_Zappe_Mackenzie/bin/CMakeFiles/list_install_components.dir

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/my_car/car.h
+my_vehicle/vehicle.h
+-
+
+../include/my_vehicle/vehicle.h
+iostream
+-
+
+/mnt/c/Users/Kenzie/CS_202/test5/PA5_Zappe_Mackenzie/src/proj5.cpp
+iostream
+-
+my_vehicle/vehicle.h
+-
+my_car/car.h
+-
+

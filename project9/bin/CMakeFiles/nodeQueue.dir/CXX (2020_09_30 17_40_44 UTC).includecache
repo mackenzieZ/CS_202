@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/dataType/DataType.h
+iostream
+-
+
+../include/nodeQueue/NodeQueue.h
+dataType/DataType.h
+-
+
+/mnt/c/Users/Kenzie/CS_202/project9/src/nodeQueue/NodeQueue.cpp
+nodeQueue/NodeQueue.h
+-
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAgencyModule.a  CMakeFiles/AgencyModule.dir/src/AgencyModule/agency.cpp.o
+/usr/bin/ranlib libAgencyModule.a

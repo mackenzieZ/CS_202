@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMenuModule.a  CMakeFiles/MenuModule.dir/src/MenuModule/menu.cpp.o
+/usr/bin/ranlib libMenuModule.a

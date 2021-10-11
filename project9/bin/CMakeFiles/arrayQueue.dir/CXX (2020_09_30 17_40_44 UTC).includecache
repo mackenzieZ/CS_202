@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/arrayQueue/ArrayQueue.h
+dataType/DataType.h
+-
+
+../include/dataType/DataType.h
+iostream
+-
+
+/mnt/c/Users/Kenzie/CS_202/project9/src/arrayQueue/ArrayQueue.cpp
+arrayQueue/ArrayQueue.h
+-
+

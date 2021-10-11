@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/project5.dir/src/proj5.cpp.o  -o project5 libmy_vehicle.a libmy_car.a 
